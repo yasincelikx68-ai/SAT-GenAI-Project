@@ -13,14 +13,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 # --- CONFIGURATION ---
 BASE_OUTPUT_DIR = "SAT_Question_Corpus"
-CHROME_DRIVER_PATH = r"C:\Selenium\chromedriver.exe"
-
-# IMPORTANT:
-# - This script is written to be platform-agnostic (no brand/site names).
-# - Update these URLs and selectors to match the target practice platform you have access to.
-LOGIN_URL = "https://example.com/login"
-DASHBOARD_URL = "https://example.com/practice-tests"
-
+CHROME_DRIVER_PATH = r"C:\Selenium\chromedriver.exe
 
 class SATAcquisitionBot:
     """
